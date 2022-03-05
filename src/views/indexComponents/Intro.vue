@@ -6,9 +6,8 @@
              style="visibility: visible;">
           <h1 class="text-12 fw-300 mb-0 text-uppercase">Hi, I'm a Freelancer</h1>
           <div class="typed-strings" style="display: none;">
-            <p>Designer</p>
-            <p>Developer</p>
-            <p>Callum</p>
+            <p v-for="(profession,idx) in professions" :key="idx">{{ profession }}</p>
+  
           </div>
           <h2 class="text-21 fw-600 text-uppercase mb-0 ms-n1"><span class="typed">D</span><span
               class="typed-cursor">|</span></h2>
@@ -27,6 +26,13 @@
 </template>
 <script>
 export default {
-  name: 'intro'
+  name: 'intro',
+  data:()=>({
+    professions:[
+      'Cesigner',
+      "YUeveloper",
+      "Callum"
+    ]
+  })
 }
 </script>
