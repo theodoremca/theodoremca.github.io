@@ -10,7 +10,7 @@
       <div class="row">
         <div class="col-lg-8 text-center text-lg-start wow fadeInUp" style="visibility: visible;">
           <h2 class="text-8 fw-400 mb-3">Hi, I'm <span
-              class="fw-700 border-bottom border-3 border-primary">Callum Smith</span></h2>
+              class="fw-700 border-bottom border-3 border-primary">{{data.name}}</span></h2>
           <p class="text-5">I'm a designer &amp; developer with a passion for web design. I enjoy developing simple,
             clean and slick websites that provide real value to the end user. Thousands of clients have procured
             exceptional results while working with me. Delivering work within time and budget which meets client’s
@@ -54,6 +54,12 @@
 </template>
 <script>
 export default {
-  name: 'about'
+  name: 'about',
+   computed:{
+    data(){
+      return this.$store.state[this.$options.name].data;
+    }
+  }
+
 }
 </script>

@@ -12,7 +12,7 @@
       </h2>
 
       <div class="row gy-5 mt-5">
-        <div v-for="(service,idx) in services" :key="idx"  class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: visible">
+        <div v-for="(service,idx) in data" :key="idx"  class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: visible">
           <div class="featured-box text-center px-md-4">
             <div class="featured-box-icon text-primary text-13">
               <i class="fas fa-palette"></i>
@@ -32,8 +32,8 @@
 export default {
   name: "services",
   computed:{
-    services(){
-      return this.$store.state["services"].services;
+    data(){
+      return this.$store.state[this.$options.name].data;
     }
   }
 };

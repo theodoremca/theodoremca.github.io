@@ -1,5 +1,6 @@
 import { createStore } from 'vuex'
 import services from './services'
+import about from './about'
 
 export default createStore({
   namespace:true,
@@ -10,6 +11,7 @@ export default createStore({
   actions: {
   },
   modules: {
-    services 
+    services,
+    about
   }
 })
