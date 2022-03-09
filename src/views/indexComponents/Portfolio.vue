@@ -9,14 +9,14 @@
       <!-- Heading end-->
 
       <!-- Filter Menu -->
-      <ul v-for="(portfolioTag, idx) in data" :key="idx" class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-4 wow fadeInUp"
+      <ul class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-4 wow fadeInUp"
           style="visibility: hidden; animation-name: none;">
-        <li class="nav-item"><a  href class="nav-link rounded-0">{{portfolioTag.title}}</a></li>
+        <li  v-for="(portfolioTag, idx) in data" :key="idx" class="nav-item"><a :data-filter="portfolioTag.name" href class="nav-link rounded-0">{{portfolioTag.title}}</a></li>
       </ul>
       <!-- Filter Menu end -->
       <div class="portfolio wow fadeInUp" style="visibility: hidden; animation-name: none;">
         <div class="row g-4 mt-3 portfolio-filter" style="position: relative; height: 1152px;">
-          <div v-for="(portfolio, idx) in data" :key="idx" :class="`col-sm-6 col-lg-4 ${portfolio.tag}`" style="position: absolute; left: 0px; top: 0px;">
+          <div v-for="(portfolio, idx) in data2" :key="idx" class="col-sm-6 col-lg-4" :class="`${portfolio.tag}`" style="position: absolute; left: 0px; top: 0px;">
             <div class="portfolio-box">
               <div class="portfolio-img"><img class="img-fluid d-block" :src="portfolio.image" alt>
                 <div class="portfolio-overlay">
@@ -41,11 +41,12 @@ export default {
   folioTag: 'portfolioTags',
   computed:{
     data(){
-      return {
-        portfolio:this.$store.state[this.$options.name].data,
-        portfolioTags:this.$store.state[this.$options.folioTag].data
-      };
-    }
-  }
+      return this.$store.state[this.$options.folioTag].data
+    },
+    data2(){
+      return this.$store.state[this.$options.name].data
+      }
+  },
+   
 }
 </script>

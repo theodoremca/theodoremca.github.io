@@ -14,10 +14,10 @@
                data-items-sm="1" data-items-md="1" data-items-lg="1">
 
 
-            <div v-for="(testimonial, idx) in data" :key="idx" class="owl-stage-outer">
+            <div class="owl-stage-outer">
               <div  class="owl-stage"
                    style="transform: translate3d(-2148px, 0px, 0px); transition: all 0.25s ease 0s; width: 5738px; padding-left: 5px; padding-right: 5px;">
-                <div class="owl-item cloned" style="width: 686px; margin-right: 30px;">
+                <div v-for="(testimonial, idx) in data" :key="idx" class="owl-item cloned" style="width: 686px; margin-right: 30px;">
                   <div class="item text-center px-5"><span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
                     <p class="text-5 text-white">{{testimonial.comment}}</p>
                     <img class="img-fluid d-inline-block w-auto rounded-circle shadow" src="images/client-sm-3.jpg" alt>

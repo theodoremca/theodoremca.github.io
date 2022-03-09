@@ -19,8 +19,7 @@
             </div>
             <h3 class="text-6 fw-600 mb-3">{{service.name}}</h3>
             <p class="text-muted mb-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry’s standard dummy text.
+              {{service.info}}
             </p>
           </div>
         </div>
