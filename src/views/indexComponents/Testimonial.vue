@@ -14,18 +14,17 @@
                data-items-sm="1" data-items-md="1" data-items-lg="1">
 
 
-            <div class="owl-stage-outer">
-              <div class="owl-stage"
+            <div v-for="(testimonial, idx) in data" :key="idx" class="owl-stage-outer">
+              <div  class="owl-stage"
                    style="transform: translate3d(-2148px, 0px, 0px); transition: all 0.25s ease 0s; width: 5738px; padding-left: 5px; padding-right: 5px;">
                 <div class="owl-item cloned" style="width: 686px; margin-right: 30px;">
                   <div class="item text-center px-5"><span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
-                    <p class="text-5 text-white">“Only trying it out since a few days. But up to now excellent. Seems to
-                      work flawlessly. priced simply dummy text of the printing and typesetting industry.”</p>
+                    <p class="text-5 text-white">{{testimonial.comment}}</p>
                     <img class="img-fluid d-inline-block w-auto rounded-circle shadow" src="images/client-sm-3.jpg" alt>
-                    <strong class="d-block text-3 fw-500 text-white">Dennis Jacques</strong> <span class="text-light">Noon Inc</span>
+                    <strong class="d-block text-3 fw-500 text-white">{{testimonial.name}}</strong> <span class="text-light">{{testimonial.company}}</span>
                   </div>
                 </div>
-                <div class="owl-item cloned" style="width: 686px; margin-right: 30px;">
+                <!-- <div class="owl-item cloned" style="width: 686px; margin-right: 30px;">
                   <div class="item text-center px-5"><span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
                     <p class="text-5 text-white">“I have used them twice now. Good rates, very efficient service and
                       priced simply dummy text of the printing and typesetting industry quidam interesset his et. simply
@@ -86,7 +85,7 @@
                     <img class="img-fluid d-inline-block w-auto rounded-circle shadow" src="images/client-sm-2.jpg" alt>
                     <strong class="d-block text-3 fw-500 text-white">Patrick Cary</strong> <span class="text-light">Freelancer from USA</span>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="owl-nav">
@@ -107,6 +106,11 @@
 </template>
 <script>
 export default {
-  name: 'testimonial'
+  name: 'testimonial',
+    computed:{
+    data(){
+      return this.$store.state[this.$options.name].data;
+    }
+  }
 }
 </script>
