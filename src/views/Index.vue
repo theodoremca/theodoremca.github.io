@@ -1,7 +1,11 @@
 <template>
   <div id="main-wrapper">
     <header-component />
+
     <div id="content" role="main">
+      <div id="styles-switcher">
+        <theme-switcher />
+      </div>
       <intro />
       <about />
       <services />
@@ -28,6 +32,7 @@ import Faq from "@/views/indexComponents/Faq";
 import Testimonial from "@/views/indexComponents/Testimonial";
 import Contact from "@/views/indexComponents/Contact";
 import FooterComponent from "@/components/FooterComponent";
+import ThemeSwitcher from "../components/ThemeSwitcher.vue";
 
 export default {
   components: {
@@ -42,13 +47,15 @@ export default {
     Faq,
     Portfolio,
     HeaderComponent,
+    ThemeSwitcher,
   },
   mounted() {
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src = "../../js/theme.js";
     script.defer;
+    script.async;
     document.body.appendChild(script);
   },
-}
+};
 </script>
