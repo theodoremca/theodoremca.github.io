@@ -84,7 +84,7 @@ $(".owl-carousel").each(function (index) {
 	if ($("html").attr("dir") == 'rtl') {
 		var rtlVal = true
 	}else{
-		var rtlVal = false
+		rtlVal = false
     }
 	$(this).owlCarousel({
 		rtl: rtlVal,
@@ -150,11 +150,11 @@ $(this).magnificPopup({
 	callbacks: {
 		ajaxContentAdded: function() {
 			$(".owl-carousel").each(function (index) {
-			  var a = $(this);
-			  if ($("html").attr("dir") == 'rtl') {
+			var a = $(this);
+			if ($("html").attr("dir") == 'rtl') {
 		var rtlVal = true
 	}else{
-		var rtlVal = false
+		rtlVal = false
     }
 	$(this).owlCarousel({
 		rtl: rtlVal,
@@ -209,7 +209,7 @@ $(".portfolio-filter").each(function() {
 	if ($("html").attr("dir") == 'rtl') {
 		var rtlVal = false
 	}else{
-		var rtlVal = true;
+		rtlVal = true;
     }
 	var $grid = e.isotope({
 			layoutMode: "masonry",

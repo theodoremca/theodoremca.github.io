@@ -24,7 +24,7 @@
         </div>
         <!-- My Experience -->
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s"
-             style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+             style="visibility: visible; animation-delay: 0.2s; animation-name: none;">
           <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
           <div v-for="(experience, idx) in data.experience" :key="idx" class="border-start border-2 border-primary ps-3">
             <h3 class="text-5"></h3>
@@ -37,10 +37,10 @@
       </div>
 
       <!-- My Skills -->
-      <h2 class="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp" style="visibility: hidden; animation-name: none;">My
+      <h2 class="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp" style="visibility: visible; animation-name: none;">My
         Skills</h2>
       <div class="row gx-5">
-        <div  v-for="(skill, idx) in data.skills" :key="idx"  class="col-md-6 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+        <div  v-for="(skill, idx) in data.skills" :key="idx"  class="col-md-6 wow fadeInUp" style="visibility: visible; animation-name: none;">
           <p class="fw-500 text-start mb-2">{{skill.tech}}<span class="float-end">{{skill.level}}</span></p>
           <div class="progress progress-sm mb-4">
             <div class="progress-bar" role="progressbar" :style="`width:${skill.bar}%`" :aria-valuenow="skill.bar.toString()" aria-valuemin="0"
@@ -49,7 +49,7 @@
           </div>
         </div>
       </div>
-      <p class="text-center mt-5 wow fadeInUp" style="visibility: hidden; animation-name: none;"><a href="#" 
+      <p class="text-center mt-5 wow fadeInUp" style="visibility: visible; animation-name: none;"><a href="#" 
         class="btn btn-outline-dark shadow-none rounded-0">Download CV</a>
         </p>
     </div>

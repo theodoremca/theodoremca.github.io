@@ -29,9 +29,10 @@ export default {
   name: 'intro',
   data:()=>({
     professions:[
-      'Cesigner',
-      "YUeveloper",
-      "Callum"
+      '',
+      'Designer',
+      "Developer",
+      "Theodore"
     ]
   })
 }

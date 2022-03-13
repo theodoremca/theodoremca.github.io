@@ -2,19 +2,19 @@
   <section id="portfolio" class="section bg-light">
     <div class="container">
       <!-- Heading -->
-      <p class=" text-center mb-2 wow fadeInUp" style="visibility: hidden; animation-name: none;"><span
+      <p class=" text-center mb-2 wow fadeInUp" style="visibility: visible; animation-name: none;"><span
           class="bg-primary text-dark px-2">Portfolio</span></p>
-      <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: hidden; animation-name: none;">Some of
+      <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: visible; animation-name: none;">Some of
         my most recent projects</h2>
       <!-- Heading end-->
 
       <!-- Filter Menu -->
       <ul class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-4 wow fadeInUp"
-          style="visibility: hidden; animation-name: none;">
+          style="visibility: visible; animation-name: none;">
         <li  v-for="(portfolioTag, idx) in data" :key="idx" class="nav-item"><a :data-filter="portfolioTag.name" href class="nav-link rounded-0">{{portfolioTag.title}}</a></li>
       </ul>
       <!-- Filter Menu end -->
-      <div class="portfolio wow fadeInUp" style="visibility: hidden; animation-name: none;">
+      <div class="portfolio wow fadeInUp" style="visibility: visible; animation-name: none;">
         <div class="row g-4 mt-3 portfolio-filter" style="position: relative; height: 1152px;">
           <div v-for="(portfolio, idx) in data2" :key="idx" class="col-sm-6 col-lg-4" :class="`${portfolio.tag}`" style="position: absolute; left: 0px; top: 0px;">
             <div class="portfolio-box">

@@ -2,7 +2,7 @@
   <section id="contact" class="section bg-primary">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 text-center text-lg-start wow fadeInUp" style="visibility: hidden; animation-name: none;">
+        <div class="col-lg-5 text-center text-lg-start wow fadeInUp" style="visibility: visible; animation-name: none;">
           <h2 class="text-10 fw-600 mb-5">Let's get in touch</h2>
           <p class="text-5 mb-5">I enjoy discussing new projects and design challenges. Please share as much info, as
             possible so we can get the most out of our first catch-up.</p>
@@ -32,7 +32,7 @@
           </ul>
         </div>
         <div class="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp" data-wow-delay="0.3s"
-             style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+             style="visibility: visible; animation-delay: 0.3s; animation-name: none;">
           <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Estimate your Project?</h2>
           <!-- Contact Form -->
           <form id="contact-form" class="form-border" action="php/mail.php" method="post">
