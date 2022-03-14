@@ -49,7 +49,8 @@
           </div>
         </div>
       </div>
-      <p class="text-center mt-5 wow fadeInUp" style="visibility: visible; animation-name: none;"><a href="#" 
+      <p class="text-center mt-5 wow fadeInUp" style="visibility: visible; animation-name: none;">
+        <a href="https://chiisom03.github.io/peter__resume.pdf" target="blank"
         class="btn btn-outline-dark shadow-none rounded-0">Download CV</a>
         </p>
     </div>
