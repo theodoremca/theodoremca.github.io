@@ -15,7 +15,7 @@
         <div v-for="(service,idx) in data" :key="idx"  class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: visible">
           <div class="featured-box text-center px-md-4">
             <div class="featured-box-icon text-primary text-13">
-              <i class="fas fa-palette"></i>
+              <i :class="service.svg"></i>
             </div>
             <h3 class="text-6 fw-600 mb-3">{{service.name}}</h3>
             <p class="text-muted mb-0">

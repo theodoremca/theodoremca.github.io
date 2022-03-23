@@ -2,43 +2,48 @@ export default {
     state: {
       data: [
               {
-                tech: "JavaScript",
-                bar: 20,
+                tech: "Flutter, Dart",
+                bar: 90,
                 level: '90%',
               },
               {
-                tech: "React JS",
-                bar: 40,
-                level: '40%',
-              },
-              {
-                tech: "CSS",
+                tech: "Adobe Premiere Pro",
                 bar: 30,
-                level: '70%',
+                level: '30%',
               },
               {
-                tech: "Java",
+                tech: "Adobe Affect Effect",
                 bar: 50,
                 level: '70%',
               },
               {
-                tech: "Django",
+                tech: "Adobe Illustrator",
                 bar: 70,
                 level: '70%',
               },
               {
-                tech: "Gravel",
-                bar: 90,
+                tech: "Adobe XD",
+                bar: 70,
                 level: '70%',
               },
               {
-                tech: "Tailwind",
-                bar: 80,
+                tech: "Adobe Photoshop",
+                bar: 70,
                 level: '70%',
               },
               {
-                tech: "Typscript",
-                bar: 10,
+                tech: "MicroSoft Excel VBA Programing",
+                bar: 60,
+                level: '60%',
+              },
+              {
+                tech: "Matlab.",
+                bar: 50,
+                level: '50%',
+              },
+              {
+                tech: "Python",
+                bar: 70,
                 level: '70%',
               },
       ],

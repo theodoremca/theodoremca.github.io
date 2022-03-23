@@ -7,17 +7,17 @@
           <h1 class="text-12 fw-300 mb-0 text-uppercase">Hi, I'm a Freelancer</h1>
           <div class="typed-strings" style="display: none;">
             <p v-for="(profession,idx) in professions" :key="idx">{{ profession }}</p>
-  
+  lorem70
           </div>
           <h2 class="text-21 fw-600 text-uppercase mb-0 ms-n1"><span class="typed">D</span><span
               class="typed-cursor">|</span></h2>
-          <p class="text-5">based in Los Angeles, USA.</p>
+          <p class="text-5">Nigeria.</p>
           <a href="#portfolio" class="btn btn-dark rounded-0 smooth-scroll mt-3">View My Works</a><a href="#contact"
                                                                                                      class="btn btn-link text-dark smooth-scroll mt-3">Contact
           Me<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a></div>
         <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
           <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn" style="visibility: visible;"><img
-              class="img-fluid rounded-pill d-block" src="images/web-developer.jpg" title="I'm Callum" alt></div>
+              class="img-fluid rounded-pill d-block" src="images/Theodore_img.jpg" title="I'm Theodore" alt></div>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@ export default {
       '',
       'Designer',
       "Developer",
-      "Theodore"
+      "Video Editor"
     ]
   })
 }

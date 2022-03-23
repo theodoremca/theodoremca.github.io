@@ -9,6 +9,7 @@ import portfolio from './portfolio'
 import portfolioTags from './portfolioTags'
 import faq from './faq'
 import themeSwitcher from './themeSwitcher'
+import contact from './contact'
 
 export default createStore({
   namespace:true,
@@ -28,6 +29,7 @@ export default createStore({
     portfolio,
     portfolioTags,
     faq,
-    themeSwitcher
+    themeSwitcher,
+    contact,
   }
 })

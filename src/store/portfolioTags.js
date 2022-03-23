@@ -7,16 +7,16 @@ export default {
           title:"All"
         },
         {
-          name: ".detailed",
-          title:"Detailed"
+          name: ".ui",
+          title:"UI"
         },
         {
-          name: ".mockups",
-          title:"Mockups"
+          name: ".web-dev",
+          title:"Web dev"
         },
         {
-          name: ".youtube",
-          title:"YouTube Videos"
+          name: ".flutter-dev",
+          title:"Flutter dev"
         },
         {
           name: ".vimeo",
