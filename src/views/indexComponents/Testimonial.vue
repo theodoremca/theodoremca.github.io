@@ -18,7 +18,7 @@
                 <div v-for="(testimonial, idx) in data" :key="idx" class="owl-item active" style="width: 686px; margin-right: 30px;">
                   <div class="item text-center px-5"><span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
                     <p class="text-5 text-white">{{testimonial.comment}}</p>
-                    <img class="img-fluid d-inline-block w-auto rounded-circle shadow" :src="testimonial.picture" alt>
+                    <img class="img-fluid d-inline-block w-auto rounded-circle shadow" :src="testimonial.picture" style="height:3rem; width: 3rem;">
                     <strong class="d-block text-3 fw-500 text-white">{{testimonial.name}}</strong> 
                     <span class="text-light">{{testimonial.company}}</span>
                   </div>

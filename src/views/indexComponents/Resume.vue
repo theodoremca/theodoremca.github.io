@@ -27,9 +27,9 @@
              style="visibility: visible; animation-delay: 0.2s; animation-name: none;">
           <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
           <div v-for="(experience, idx) in data.experience" :key="idx" class="border-start border-2 border-primary ps-3">
-            <h3 class="text-5"></h3>
-            <p class="mb-2">{{experience.course}}</p>
-            <p class="text-muted">{{experience.info}}</p>
+            <h3 class="text-5">{{experience.course}}</h3>
+            <p class="mb-2">{{experience.duration}}</p>
+            <p class="text-muted">{{experience.company}}</p>
             <hr class="my-4">
             
           </div>

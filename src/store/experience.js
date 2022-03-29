@@ -2,20 +2,25 @@ export default {
   state: {
     data: [
       {
+        course: `FLUTTER DEVELOPER , VUE JS APP , 
+        NODE AND LARAVEL APIs , GOOGLE APPs SCRIPT DEVELOPER , RPA DEVELOPER`,
+        duration: "Full-time Aug 2020 - Present· 1 yr 8 mos",
+        company: "Hordanso LLC",
+      },
+      {
         course: "Creative Director/Head Coach",
-        info: `Technology moves fast. Design moves on, so It is important to keep Learning`,
-        percent: "60%",
+        info: `2010 - till date`,
+        company: "Freelance",
       },
       {
         course: "Graphics Design Director",
-        info: `Understanding where you're coming from, helps us to go in the right direction together`,
-        percent: "60%",
+        info: `2010`,
+        company: "Freelance",
       },
       {
         course: "Video Editor/ Graphic Designer",
-        info: `Our International Collegues and Clients inspire us with new perspectives
-                   on work and life. `,
-        percent: "60%",
+        info: `2009 - til date `,
+        company: "Freelance",
       },
     ],
   },
