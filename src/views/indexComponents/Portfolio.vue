@@ -18,13 +18,18 @@
         <div class="row g-4 mt-3 portfolio-filter" style="position: relative; height: 1152px;">
           <div v-for="(portfolio, idx) in data2" :key="idx" class="col-sm-6 col-lg-4" :class="`${portfolio.tag}`" style="position: absolute; left: 0px; top: 0px;">
             <div class="portfolio-box">
-              <div class="portfolio-img"><img class="img-fluid d-block" :src="portfolio.image" alt>
-                <div class="portfolio-overlay">
+              <div  class="portfolio-img">
+                <iframe v-if="portfolio.video" width="100%" height="364" :src="portfolio.video" 
+                :title="portfolio.name"></iframe>
+                <div v-else>
+                <img  class="img-fluid d-block" :src="portfolio.image" alt> 
+                <div  class="portfolio-overlay">
                   <a class="popup-ajax stretched-link" :href="portfolio.link"></a>
                   <div class="portfolio-overlay-details">
                     <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
                       <h5 class="text-white text-5">{{portfolio.name}}</h5>
                       <span class="text-light">{{portfolio.category}}</span>
+                  </div>
                   </div>
                 </div>
               </div>

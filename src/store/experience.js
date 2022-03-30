@@ -9,17 +9,17 @@ export default {
       },
       {
         course: "Creative Director/Head Coach",
-        info: `2010 - till date`,
+        duration: `2010 - till date`,
         company: "Freelance",
       },
       {
         course: "Graphics Design Director",
-        info: `2010`,
+        duration: `2010`,
         company: "Freelance",
       },
       {
         course: "Video Editor/ Graphic Designer",
-        info: `2009 - til date `,
+        duration: `2009 - til date `,
         company: "Freelance",
       },
     ],
