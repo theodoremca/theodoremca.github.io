@@ -8,7 +8,7 @@ export default {
         twitter: "",
         facebook: "",
         instagram: "",
-        git: "",
+        git: "https://github.com/theodoremca",
         dribbble: "",
         phone: "+2349049460816",
         city: "Lagos, Nigeria",

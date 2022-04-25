@@ -18,8 +18,8 @@
               <i :class="service.svg"></i>
             </div>
             <h3 class="text-6 fw-600 mb-3">{{service.name}}</h3>
-            <p class="text-muted mb-0">
-              {{service.info}}
+            <p class="text-muted mb-0" v-html="service.info">
+        
             </p>
           </div>
         </div>

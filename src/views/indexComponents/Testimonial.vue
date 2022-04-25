@@ -1,5 +1,5 @@
 <template>
-  <section id="testimonial" class="section bg-secondary">
+  <section id="testimonial" class="section" style="background-color:#2d4051">
     <div class="container">
       <!-- Heading -->
       <p class=" text-center mb-2 wow fadeIn" style="visibility: visible; animation-name: none;"><span

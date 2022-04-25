@@ -2,25 +2,34 @@ export default {
   state: {
     data: [
       {
-        course: `FLUTTER DEVELOPER , VUE JS APP , 
-        NODE AND LARAVEL APIs , GOOGLE APPs SCRIPT DEVELOPER , RPA DEVELOPER`,
-        duration: "Full-time Aug 2020 - Present· 1 yr 8 mos",
+        course: `Software Engineer `,
+        duration: "2022 - till date",
+        company: "Perizer/Calen360 LLC",
+      },
+      {
+        course: `Flutter, Google Addon, Vue js Developer `,
+        duration: "Aug 2020 - 2022",
         company: "Hordanso LLC",
       },
       {
+        course: "Vue js Developer",
+        duration: `2020`,
+        company: "Styliest",
+      },
+      {
         course: "Creative Director/Head Coach",
-        duration: `2010 - till date`,
-        company: "Freelance",
+        duration: `2020`,
+        company: "Avatech Academy",
       },
       {
         course: "Graphics Design Director",
-        duration: `2010`,
-        company: "Freelance",
+        duration: `2018`,
+        company: "Talcube",
       },
       {
         course: "Video Editor/ Graphic Designer",
-        duration: `2009 - til date `,
-        company: "Freelance",
+        duration: `2017 - 2018 `,
+        company: "GAL LTD",
       },
     ],
   },

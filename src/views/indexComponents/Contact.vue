@@ -13,11 +13,11 @@
           <h3 class="text-5 fw-600">Call:</h3>
           <p class="text-4">{{contact.phone}}</p>
           <ul class="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
-            <li class="social-icons-twitter">
+            <!-- <li class="social-icons-twitter">
               <a data-bs-toggle="tooltip" 
               :href="contact.twitter" 
               target="_blank" title data-bs-original-title="Twitter"><i
-                class="fab fa-twitter"></i></a></li>
+                class="fab fa-twitter"></i></a></li> -->
             <li class="social-icons-facebook"><a data-bs-toggle="tooltip" 
               :href="contact.facebook"
               target="_blank" title data-bs-original-title="Facebook"><i
@@ -38,20 +38,21 @@
               <i class="fab fa-github"></i>
               </a>
             </li>
-            <li class="social-icons-dribbble">
+            <!-- <li class="social-icons-dribbble">
               <a data-bs-toggle="tooltip" 
              :href="contact.dribbble"
               target="_blank" title data-bs-original-title="Dribbble">
               <i class="fab fa-dribbble"></i>
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
         <div class="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp" data-wow-delay="0.3s"
              style="visibility: visible; animation-delay: 0.3s; animation-name: none;">
           <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Estimate your Project?</h2>
           <!-- Contact Form -->
-          <form id="contact-form" class="form-border" action="php/mail.php" method="post">
+          <form  class="form-border"   action="https://formspree.io/f/mpzbowbk"
+  method="POST">
             <div class="row g-4">
               <div class="col-12">
                 <label class="form-label" for="name">What is Your Name:</label>
@@ -66,7 +67,7 @@
                 <textarea id="form-message" name="form-message" class="form-control py-1" rows="4" required></textarea>
               </div>
               <div class="col-12 text-center text-lg-start">
-                <button id="submit-btn" class="btn btn-dark rounded-0" type="submit">Send <span class="ms-3"><i
+                <button  class="btn btn-dark rounded-0" type="submit">Send <span class="ms-3"><i
                     class="fas fa-arrow-right"></i></span></button>
               </div>
             </div>
@@ -74,7 +75,9 @@
           <!-- Contact Form end -->
         </div>
       </div>
+        
     </div>
+    
   </section>
 </template>
 <script>

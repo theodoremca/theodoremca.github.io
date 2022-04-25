@@ -1,25 +1,47 @@
 export default {
     state: {
       data: [
+        {
+          tech: "Flutter, Dart",
+          bar: 85,
+          level: '85%',
+        },
               {
-                tech: "Flutter, Dart",
+                tech: "Quasar, Vue js, Javascript",
+                bar: 85,
+                level: '85%',
+              },
+              
+              {
+                tech: "Node js, Express js,  Javascript",
+                bar: 80,
+                level: '70%',
+              },
+              {
+                tech: "Laravel, php",
+                bar: 65,
+                level: '65%',
+              },
+       
+              {
+                tech: "Adobe Premiere Pro",
                 bar: 90,
                 level: '90%',
               },
               {
-                tech: "Adobe Premiere Pro",
-                bar: 30,
-                level: '30%',
-              },
-              {
                 tech: "Adobe Affect Effect",
-                bar: 50,
-                level: '70%',
+                bar: 80,
+                level: '80%',
               },
               {
                 tech: "Adobe Illustrator",
-                bar: 70,
-                level: '70%',
+                bar: 150,
+                level: '150%',
+              },
+              {
+                tech: "Figma",
+                bar: 85,
+                level: '85%',
               },
               {
                 tech: "Adobe XD",
@@ -28,23 +50,19 @@ export default {
               },
               {
                 tech: "Adobe Photoshop",
-                bar: 70,
-                level: '70%',
+                bar: 150,
+                level: '150%',
               },
               {
                 tech: "MicroSoft Excel VBA Programing",
-                bar: 60,
-                level: '60%',
-              },
-              {
-                tech: "Matlab.",
-                bar: 50,
-                level: '50%',
-              },
-              {
-                tech: "Python",
                 bar: 70,
                 level: '70%',
+              },
+  
+              {
+                tech: "Arduino / iOT",
+                bar: 85,
+                level: '85%',
               },
       ],
     },

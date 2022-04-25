@@ -2,27 +2,48 @@ export default {
   state: {
     data: [
       {
-        name: "Digital Design",
-        svg: "fas fa-paint-brush",
-        info: `Microsoft Suite (2010): Word, Excel, PowerPoint, Publisher and InfoPath`,
+        name: "Web Development",
+        svg: "fas fa-code",
+        info: `
+        <b>Frontend & Backend </b> <br>
+        Javascript, ES6, Vue-Js, Node Js, Quasar, php , Laravel
+        `,
       },
       {
-        name: "Software Developnent",
-        svg: "fas fa-pencil-ruler",
-        info: `HTML, CSS, SASS, Bootstrap.
-          Js, ES6, VUE-Js
-          ▪MySQL, basic xml, php , OO php, Laravel`,
+        name: "Mobile Development",
+        svg: "fas fa-mobile",
+        info: `
+        <b>Frontend & Backend </b> <br>
+        Flutter, Dart, Javascript, Quasar, Node js
+        `,
+      },
+      {
+        name: "Digital Design",
+        svg: "fas fa-pen-nib",
+        info: `
+        <b>UI/UX Design & Graphics Design </b> <br>
+        Figma, XD, Adobe Illustrator, Adobe Photoshop
+        `,
       },
       {
         name: "Video Editing",
-        svg: "fas fa-desktop",
-        info: `Photoshop, canvas, lightroom, Adobe priemier pro`,
+        svg: "fas fa-video",
+        info: `
+        Adobe Premiere Pro,
+        Adobe After Effects,
+        Adobe Media Encoder,
+        `,
       },
       {
         name: "RPA & BPA",
-        svg: "fas fa-chart-area",
-        info: `UiPATH
-          ProcessMaker`,
+        svg: "fas fa-robot",
+        info: `UiPATH and
+          Process Maker`,
+      },
+      {
+        name: "Google Addon and Chrome Extension Developme",
+        svg: "fas fa-robot",
+        info: `VBA script , Ms Excel , Google Script , Google Sheet`,
       },
     ],
   },

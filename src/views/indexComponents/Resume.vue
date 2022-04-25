@@ -43,7 +43,7 @@
         <div  v-for="(skill, idx) in data.skills" :key="idx"  class="col-md-6 wow fadeInUp" style="visibility: visible; animation-name: none;">
           <p class="fw-500 text-start mb-2">{{skill.tech}}<span class="float-end">{{skill.level}}</span></p>
           <div class="progress progress-sm mb-4">
-            <div class="progress-bar" role="progressbar" :style="`width:${skill.bar}%`" :aria-valuenow="skill.bar.toString()" aria-valuemin="0"
+            <div class="progress-bar"  role="progressbar" :style="`width:${skill.bar}%;${skill.bar>80?'background-color:red':''}`" :aria-valuenow="skill.bar.toString()" aria-valuemin="0"
                  aria-valuemax="100">
             </div>
           </div>

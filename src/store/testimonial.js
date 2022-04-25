@@ -7,7 +7,7 @@ export default {
             TeamViewer live which means he is the only person willing 
             to pass a simple O-Auth test”`,
         picture:
-          "https://scontent.flos5-1.fna.fbcdn.net/v/t39.30808-6/272020223_10224737617561415_7271654251047385123_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=XrEsefCAtnAAX_gMyTq&_nc_ht=scontent.flos5-1.fna&oh=00_AT_IAvIi9qEbyKE2v7hWCo-CBkeunx_qz26D-CfbcwwApA&oe=624809B0",
+          "images/client-sm-2.jpg",
         name: "Stormy Chase Forrester",
         company: "Facebook",
       },
