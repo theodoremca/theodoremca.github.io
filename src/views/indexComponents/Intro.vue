@@ -76,7 +76,7 @@
 export default {
   name: "intro",
   data: () => ({
-    professions: ["", "Designer", "Developer", "Video Editor"],
+    professions: ["Developer","Developer", "Designer", "Developer", "Video Editor","Developer"],
   }),
 };
 </script>

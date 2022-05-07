@@ -11,7 +11,7 @@
       <services />
       <!--    fix visibilty-->
       <resume />
-      <portfolio />
+      <!-- <portfolio /> -->
       <hero-component />
       <faq />
       <testimonial />
@@ -24,7 +24,7 @@
 import Intro from "@/views/indexComponents/Intro";
 import HeaderComponent from "../components/HeaderComponent";
 import About from "@/views/indexComponents/About";
-import Portfolio from "@/views/indexComponents/Portfolio";
+// import Portfolio from "@/views/indexComponents/Portfolio";
 import Resume from "@/views/indexComponents/Resume";
 import Services from "@/views/indexComponents/Services";
 import HeroComponent from "@/components/HeroComponent";
@@ -45,7 +45,7 @@ export default {
     About,
     Services,
     Faq,
-    Portfolio,
+    // Portfolio,
     HeaderComponent,
     ThemeSwitcher,
   },

@@ -7,7 +7,7 @@
       <div class="hero-content section">
         <div class="container text-center py-5 wow fadeInUp" style="visibility: visible; animation-name: none;">
           <h2 class="text-10 fw-600 text-white mb-5">Interested in working with me?</h2>
-          <a href="#contact" class="btn btn-primary rounded-0 smooth-scroll wow rubberBand" data-wow-delay="1s"
+          <a href="https://wa.link/pxpsvl" target="blank" class="btn btn-primary rounded-0 " 
              style="visibility: visible; animation-delay: 1s; animation-name: none;">Hire Me!</a></div>
       </div>
     </div>

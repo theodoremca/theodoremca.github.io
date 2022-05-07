@@ -1,7 +1,7 @@
 export default {
   state: {
     data: {
-      name: "Theodore",
+      name: "Theodore Imonigie",
       info: `A <b>Software Developer</b>  with <b>Four(4)</b> years experience, a <b>Video Editor</b>  with <b>Six(6)</b> years experience, 
           and a <b>Designer</b> with  <b>Nine(9)</b> years experience. Undoubtedly 
           looking to leverage my extensive knowledge and experience into an active field in ICT 
