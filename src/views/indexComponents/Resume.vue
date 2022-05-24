@@ -41,7 +41,7 @@
         Skills</h2>
       <div class="row gx-5">
         <div  v-for="(skill, idx) in data.skills" :key="idx"  class="col-md-6 wow fadeInUp" style="visibility: visible; animation-name: none;">
-          <p class="fw-500 text-start mb-2">{{skill.tech}}<span class="float-end">{{skill.level}}</span></p>
+          <p class="fw-500 text-start mb-2" :style="skill.tech.length>35 && windowWidth<500?'font-size:13px':''">{{skill.tech}}<span class="float-end">{{skill.level}}</span></p>
           <div class="progress progress-sm mb-4">
             <div class="progress-bar"  role="progressbar" :style="`width:${skill.bar}%;${skill.bar>80?'background-color:red':''}`" :aria-valuenow="skill.bar.toString()" aria-valuemin="0"
                  aria-valuemax="100">
@@ -66,7 +66,22 @@ export default {
       return {
           resume:this.$store.state[this.$options.name].data,
           experience:this.$store.state[this.$options.exp].data,
-          skills:this.$store.state[this.$options.skill].data
+          skills:this.$store.state[this.$options.skill].data,
+          windowWidth: window.innerHeight,
+
       }
-  }}}
+  }},
+    mounted() {
+        this.$nextTick(() => {
+            window.addEventListener('resize', this.onResize);
+        })
+    },
+    methods: {  
+        onResize() {
+            this.windowWidth = window.innerWidth
+                   console.log(this.txt,this.windowWidth)
+        }
+    }
+  
+  }
 </script>
