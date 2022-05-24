@@ -7,15 +7,15 @@ export default {
           level: '85%',
         },
               {
-                tech: "Quasar, Vue js, Javascript",
-                bar: 85,
+                tech: "Quasar, Vue js, Javascript, TypeScript",
+                bar: 150,
                 level: '85%',
               },
               
               {
-                tech: "Node js, Express js,  Javascript",
-                bar: 80,
-                level: '70%',
+                tech: "Node js, Express js,  Javascript, Typescript",
+                bar: 100,
+                level: '150%',
               },
               {
                 tech: "Laravel, php",
