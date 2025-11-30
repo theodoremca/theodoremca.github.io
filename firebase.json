@@ -9,8 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "https://com.theodore.name.ng",
-        "type": 301
+        "destination": "/index.html"
       }
     ]
   }
